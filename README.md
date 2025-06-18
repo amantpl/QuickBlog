@@ -2,11 +2,10 @@
 *Modern Blogging Platform* 🚀
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400.png?text=QuickBlog+Platform" alt="QuickBlog Banner" />
+  <img src="/public/screenshot.jpg" alt="QuickBlog Banner" />
   <h3>A responsive web-based blogging platform for writers and readers</h3>
   <br />
-  <img src="https://img.shields.io/badge/Demo-Live_Site-2ea44f?style=for-the-badge" alt="Live Demo" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  <img src="https://quick-blog-sooty.vercel.app/" alt="Live Demo" />
 </div>
 
 ---
@@ -186,13 +185,4 @@ Please follow code conventions and add tests where applicable.
 
 ---
 
-<div align="center">
-  <h3>Ready to start blogging?</h3>
-  <a href="https://quickblog-demo.com">
-    <img src="https://img.shields.io/badge/Try_Live_Demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white" alt="Try Live Demo" />
-  </a>
-  <span style="width:20px; display:inline-block;"></span>
-  <a href="https://github.com/your-username/quickblog">
-    <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="View on GitHub" />
-  </a>
-</div>
+*Made by Aman Thapliyal*
