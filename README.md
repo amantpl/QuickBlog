@@ -1,4 +1,4 @@
-**QuickBlog**-
+**QuickBlog** -
 *Modern Blogging Platform* 🚀
 
 <div align="center">
