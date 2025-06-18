@@ -2,7 +2,7 @@
 *Modern Blogging Platform* 🚀
 
 <div align="center">
-  <img src="/public/screenshot.jpg" alt="QuickBlog Banner" />
+  <img src="client/public/screenshot.jpg" alt="QuickBlog Banner" />
   <h3>A responsive web-based blogging platform for writers and readers</h3>
   <br />
   <img src="https://quick-blog-sooty.vercel.app/" alt="Live Demo" />
