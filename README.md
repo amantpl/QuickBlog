@@ -152,45 +152,6 @@ const PostCard = ({ post }) => (
 export default PostCard;
 ```
 
-### 3. Codeforces Standings
-
-```jsx
-// components/CodeforcesStandings.jsx
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-
-const CodeforcesStandings = ({ contestId }) => {
-  const [rows, setRows] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(`https://codeforces.com/api/contest.standings?contestId=${contestId}`)
-      .then(res => setRows(res.data.result.rows.slice(0, 10)));
-  }, [contestId]);
-
-  return (
-    <section className="standings">
-      <h3>Top 10 Codeforces</h3>
-      <table>
-        <thead>
-          <tr><th>Rank</th><th>Handle</th><th>Points</th></tr>
-        </thead>
-        <tbody>
-          {rows.map((r, i) => (
-            <tr key={i}>
-              <td>{r.rank}</td>
-              <td>{r.party.members[0].handle}</td>
-              <td>{r.points}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </section>
-  );
-};
-export default CodeforcesStandings;
-```
-
 ---
 
 ## 🚀 Performance Metrics
@@ -222,12 +183,6 @@ export default CodeforcesStandings;
 5. Open a Pull Request
 
 Please follow code conventions and add tests where applicable.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for details.
 
 ---
 
