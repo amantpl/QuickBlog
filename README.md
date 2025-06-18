@@ -49,7 +49,7 @@ QuickBlog is a full-featured blogging platform that empowers writers to craft be
 1. **Clone & install**
 
    ```bash
-   git clone https://github.com/your-username/quickblog.git
+   git clone https://github.com/amantpl/QuickBlog
    cd quickblog
    npm install
    ```
