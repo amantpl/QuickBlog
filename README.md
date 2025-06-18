@@ -5,7 +5,8 @@
   <img src="client/public/screenshot.jpg" alt="QuickBlog Banner" />
   <h3>A responsive web-based blogging platform for writers and readers</h3>
   <br />
-  <img src="https://quick-blog-sooty.vercel.app/" alt="Live Demo" />
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-QuickBlog-2ea44f?style=for-the-badge)](https://quick-blog-sooty.vercel.app/)
+
 </div>
 
 ---
